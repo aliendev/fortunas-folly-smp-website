@@ -4,35 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Server Community</title>
+    <title>Fortuna's Folloy - A Minecraft SMP Community</title>
     <link rel="canonical" href="https://fortunasfolly.com/" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom fixed-top">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-            <span class="fs-4">Fortuna's Folly</span>
-        </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="/rules.html" class="nav-link">Server Rules</a></li>
-            <li class="nav-item"><a href="/mods.html" class="nav-link">Moderators</a></li>
-            <li class="nav-item"><a href="/#downloads" class="nav-link">Downloads</a></li>
-            <li class="nav-item"><a href="/mods.html#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/favicon-32x32.png" class="d-inline-block align-text-top" width="32" height="32" />
+                <span class="fs-4">Fortuna's Folly</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="/#rules" class="nav-link">Server Rules</a></li>
+                    <li class="nav-item"><a href="/#mods" class="nav-link">Moderators</a></li>
+                    <!-- li class="nav-item"><a href="#downloads" class="nav-link">Downloads</a></li --->
+                    <li class="nav-item"><a href="/#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+          
+
+        </div>
+    </nav>
+
+
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+          <h1 class="text-body-emphasis">Fortuna's Folly</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            A MineCraft SMP community. 
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+              Call to action
+              <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+            </button>
+            <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+              Secondary link
+            </button>
+          </div>
+        </div>
+      </div>
+
+    
 
     <main class="container">
         <section id="home">
@@ -51,6 +86,7 @@
             patreon info
 
         </section>
+
         <section id="about">
             <h2>About</h2>
             <p>Our server offers a unique experience with custom mods and a friendly community.</p>
@@ -60,15 +96,7 @@
                 <li><a href="#mods">Check out our Mods</a></li>
             </ul>
         </section>
-        <section id="community">
-            <h2>Community</h2>
-            <p>Join our Discord and follow us on social media to stay connected.</p>
-            <ul>
-                <li><a href="https://discord.gg/your-discord-link" target="_blank">Discord</a></li>
-                <li><a href="https://twitter.com/your-twitter" target="_blank">Twitter</a></li>
-                <li><a href="https://facebook.com/your-facebook" target="_blank">Facebook</a></li>
-            </ul>
-        </section>
+
         <section id="rules">
             <h2>Rules</h2>
             <p>Please follow these rules to ensure a friendly and fair environment for all players:</p>
@@ -78,11 +106,41 @@
                 <li>No cheating or exploiting bugs.</li>
                 <li>Keep the chat clean and respectful.</li>
                 <li>Follow any additional server-specific rules.</li>
+
+                <li>Don't be a jerk. This is a welcoming space where everyone should feel comfortable to be themselves and any action that makes anyone feel like they can't, will not be tolerated.</li>
+                <li>If you aren't sure ask, somebody will be here to help you out.</li>
+                <li>No griefing other players. This means no stealing, no blowing up another persons space and no PvP without agreement. If somebody says no, it means just that.</li>
+                <li>If you can see a build close to where you want to build something (a home, a farm or even just a pile of rocks), ask the person it belongs to if that is ok. You can never be sure how far a player might wants to expand to. If you don't know who it belongs to post a picture in the "who on earth built this" channel and we'll try and track them down.</li>
+                <li>When you claim a spot, put up some signs. This makes dealing with claims easier.</li>
+                <li>If you are going to open a shop or use the shopping district, please follow the <a href="#shopping">Shopping District</a> rules</li>
+                <li>Have fun</li>
+            </ul>
+            <p>We are pretty new to this and this list will change, with everyone being alerted when this happens.</p>
+            <p>Above all we want this to be safe and fun.</p>
+        </section>
+
+
+        <section id="shopping">
+            <h2>Shopping District Rules</h2>
+            <p>If you are going to have a shop, follow these rules:</p>
+            <ul>
+                <li>No griefing or stealing.</li>
+                <li>When you claim a spot, put up some signs. This makes dealing with claims easier.</li>
             </ul>
         </section>
+
+
         <section id="mods">
-            <h2>Mods</h2>
-            <p>Our server uses the following mods:</p>
+            <h2>Moderators and their rules</h2>
+            <p>Our mods are here to keep things fair, fun, and friendly. Because this is important to us, we want everyone to be transparent on the rules the mods follow, as well as who they are.</p>
+            <ul class="modList"><!-- Generated Avatars with https://skinmc.net/avatars -->
+                <li><img src="/assets/images/skinmc-avatar-monkey.png" />ComedyMonkey</li>
+                <li><img src="/assets/images/skinmc-avatar-alien.png" />AlienDev</li>
+                <li><img src="/assets/images/skinmc-avatar-gamma.png" />GammaTek78</li>
+                <li><img src="/assets/images/skinmc-avatar-wolf.png" />TheWhiteWolf13</li>
+                <li><img src="/assets/images/skinmc-avatar-watch.png" />WatchersArcade</li>
+                <!-- Add more mods as needed -->
+            </ul>
             <ul>
                 <li>Mod 1: Description</li>
                 <li>Mod 2: Description</li>
@@ -90,19 +148,22 @@
                 <!-- Add more mods as needed -->
             </ul>
         </section>
+        
+        <!-- 
         <section id="downloads">
             <h2>Downloads</h2>
             <p>Previous downloads:</p>
             <ul>
                 <li><a href="downloads/download1.zip" download>Download 1</a></li>
                 <li><a href="downloads/download2.zip" download>Download 2</a></li>
-                <!-- Add more downloads as needed -->
             </ul>
         </section>
+        -->
+
         <section id="contact">
             <h2>Contact</h2>
-            <p>If you have any questions, feel free to reach out to us via Discord: <a
-                    href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>If you have any questions, feel free to reach out to us at <a
+                    href="https://discord.gg/chv8skMd">Fortuna's Folly on Discord</a></p>
         </section>
     </main>
 
