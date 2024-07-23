@@ -13,7 +13,7 @@ nav {
 
 div.hero {
     background-color: #013366;
-    background-image: "/assets/images/fortunas-folly-full-graphic.png";
+    background-image: url("/assets/images/fortunas-folly-full-graphic.png");
     background-position: top middle;
     background-repeat: no-repeat;
     background-size: cover;
