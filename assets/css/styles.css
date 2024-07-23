@@ -6,10 +6,22 @@ body {
     color: #fff;
 }
 
+footer {
+    background-color: #030724;
+    color: #f7f7f7;
+}
+
+a, a:hover, a:visited {
+    color: #fff;
+}
+
 nav {
     background-color: #fff;
 }
 
+section {
+    margin-bottom: 40px;
+}
 
 div.hero {
     background-color: #013366;
