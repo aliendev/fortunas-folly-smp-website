@@ -15,6 +15,17 @@ a, a:hover, a:visited {
     color: #fff;
 }
 
+h1 {
+    font-size: 4em;
+}
+
+@supports (-webkit-text-stroke: 2px #000) {
+    h1 {
+      -webkit-text-fill-color: #fff;
+      -webkit-text-stroke: 2px #000;
+    }
+  }
+
 nav {
     background-color: #fff;
 }
