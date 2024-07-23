@@ -58,11 +58,12 @@ div.hero button {
 ul.modList {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 ul.modList li {
     text-align: center;
-    padding: 0 20px;
     list-style: none;
     flex: 1;
 }
