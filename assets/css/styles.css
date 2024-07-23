@@ -2,9 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #030929;
+    color: #fff;
 }
 
 nav {
     background-color: #fff;
+}
+
+
+div.hero {
+    background-color: #013366;
+    background-image: "/assets/images/fortunas-folly-full-graphic.png";
+    background-position: top middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.modList {
+    display: flex;
+    flex-direction: row;
+}
+
+ul.modList li {
+    text-align: center;
+    padding: 0 20px;
+    list-style: none;
+    flex: 1;
+}
+
+ul.modList li img {
+    width: 100px;
+}
+
+ul.modList li span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 700;
 }
